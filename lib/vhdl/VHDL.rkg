@@ -1,0 +1,48 @@
+- designUnit:
+  - elementS
+
+- entity:
+  - genericS
+  - name
+  - portS
+
+- generic:
+  - name
+  - type
+  - init
+
+- port:
+  - name
+  - direction
+  - type
+
+- architecture:
+  - name
+  - entity_name
+  - declS
+  - body
+
+- signal:
+  - name
+  - type
+  - init
+
+- constant:
+  - name
+  - type
+  - expr
+
+- body:
+  - stmtS
+
+- sigAssign:
+  - lhs
+  - rhs
+
+- instanciation:
+  - iname
+  - lname
+  - ename
+  - aname
+  - genericMap
+  - portMap
